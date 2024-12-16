@@ -1,4 +1,2 @@
 *.csv
 catboost*
-index*
-*.pdf

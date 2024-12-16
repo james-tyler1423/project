@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Your Project Title </title>
+    <meta name="author" content="Your Name">
+
+    <style>
+        @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div class="container">
+            <div class="section">
+                <h1>Predictive Modeling of World Golf Rankings</h1>
+                <p>CPSC 490 Senior Project by James Tyler</p>
+                <p>Advised by
+                    <br />Stephen Slade, Department of Computer Science, Yale University
+                    <br />Tamunonye Cheetham-West, Department of Mathematics, Yale University
+                </p>
+            </div>
+            <div class="section">
+                <h2>Abstract</h2>
+                <p>
+                    This paper sets out to develop and implement a world golf ranking. The inspiration for the project came from news stories surrounding the development of LIV Golf, and whether statistically driven rankings, such as that of datagolf.com, are better indicators of golfer performance than the Official Golf World Ranking (OWGR), which uses a points based approach. The datagolf ranking utilizes regression, so we also set out to test the effectiveness of machine learning algorithms on this problem. We wrote web scrapers to gather score level professional golf data, and fit a regression to determine adjusted strokes gained (independent skill level of round) across our dataset. We then fit models to predict each player's adjusted strokes gained, which becomes their Performance Rating, and ultimately the ranking. We found that Gradient Boosted Trees did not exhibit increased predictive power over regression, when fit with a limited feature set. Further work remains to be seen if with additional feature engineering and data collection if these models could be useful. The result of this project is the testing of these models, and the world ranking it develops. 
+                <p>
+            </div>
+
+            <div class="section">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="CPSC_490_Senior_Thesis_James_Tyler.pdf">Final report</a></li>
+                    <li><a href="CPSC490_Final_Poster_Presentation_James_Tyler.pdf">Final poster</a></li>
+                    <li><a href="CPSC490_Proposal_James_Tyler.pdf">Project proposal (118K)</a></li>
+                    <li><a href= "https://github.com/james-tyler1423/project"> Final Github Commit</a></li>
+                </ul>
+                <br>
+            </div>
+
+    </main>
+</body>
+
+</html>
